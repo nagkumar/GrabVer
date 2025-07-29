@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package eu.davidea.gradle
+package fix.eu.davidea.gradle
 
 import nu.studer.java.util.OrderedProperties
 
-import static eu.davidea.gradle.ConsoleColors.*
+import static ConsoleColors.*
 
 /**
  * @author Davide Steduto

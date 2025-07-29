@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package eu.davidea.gradle
+package fix.eu.davidea.gradle
 
 import nu.studer.java.util.OrderedProperties
 import org.gradle.BuildResult
@@ -21,7 +21,7 @@ import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.api.Task
 
-import static eu.davidea.gradle.ConsoleColors.*
+import static ConsoleColors.*
 
 /**
  * <u>User values</u>:<br>
@@ -119,7 +119,7 @@ class GrabVer implements Plugin<Project> {
      * @return true to allow the saving, false to deactivate the plugin in silent mode.
      */
     protected boolean readUserConfiguration() {
-        List<String> runTasks = project.gradle.startParameter.taskNames
+        List<String> runTasks = project.gradle.startParameter.taskNames + project.defaultTasks
         this.debug = runTasks.contains("grabverDebug")
 
         // Silent evaluation looking for activation/save tasks

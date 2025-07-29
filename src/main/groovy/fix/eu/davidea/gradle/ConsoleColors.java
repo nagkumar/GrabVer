@@ -1,4 +1,4 @@
-package eu.davidea.gradle;
+package fix.eu.davidea.gradle;
 
 public enum ConsoleColors {
     // Reset

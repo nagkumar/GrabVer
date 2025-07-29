@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package eu.davidea.gradle
+package fix.eu.davidea.gradle
 
 enum VersionType {
     MAJOR, MINOR, PATCH, PRE_RELEASE, BUILD, CODE
