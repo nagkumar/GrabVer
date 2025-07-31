@@ -36,7 +36,7 @@ ext {
     groupId = 'fix.eu.davidea'
     artifactId = 'grabver'
     libraryName = 'GrabVer'
-    libraryVersion = '2.0.4'
+    libraryVersion = '2.0.3'
     libraryTitle = 'Gradle Automatic Build Versioning Plugin'
     libraryDescription = 'An easy Gradle plugin that follows semver.org rules to automatically generate the Patch version, Build number and Code version, while Major, Minor and Pre-Release suffix remain under our control.'
     libraryTags = ['semver', 'version', 'versioning', 'build-versioning', 'automatic-versioning', 'intellij-idea', 'android-studio', 'auto-reset']
